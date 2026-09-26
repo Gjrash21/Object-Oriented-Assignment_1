@@ -1,0 +1,9 @@
+# Ignore local Eclipse IDE configs
+.project
+.classpath
+.settings/
+bin/
+
+# Ignopre OS metadata
+.DS_Store
+Thumbs.db
