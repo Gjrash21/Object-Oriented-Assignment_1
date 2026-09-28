@@ -6,7 +6,7 @@ public class TicketBook {
 	
 	public TicketBook(int capacity) {
 		if (capacity <= 0) {
-			throw new IllegalArgumentExecption("Capacity must be positive.");
+			throw new IllegalArgumentException("Capacity must be positive.");
 		}
 		
 		this.tickets = new Ticket[capacity];
@@ -15,7 +15,7 @@ public class TicketBook {
 	
 	public Ticket createTicket(int id, Event event, TicketType ticketType, String studentName) {
 		if (count >= tickets.length) {
-			throw new IllegalArgumentExecption("TicketBook is full. Can't create more tickets.");
+			throw new IllegalArgumentException("TicketBook is full. Can't create more tickets.");
 		}
 			
 			Ticket ticket = new Ticket(id, event, ticketType, studentName);

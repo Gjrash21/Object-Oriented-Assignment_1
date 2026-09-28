@@ -6,7 +6,7 @@ public class TicketManager {
 	
 	public TicketManager(TicketBook ticketBook) {
 		if (ticketBook == null) {
-			throw new IllegalArgumentException("TicketBook can't be null.")
+			throw new IllegalArgumentException("TicketBook can't be null.");
 		}
 		
 		this.ticketBook = ticketBook;

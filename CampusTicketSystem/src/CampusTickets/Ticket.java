@@ -46,6 +46,7 @@ public class Ticket {
 
     public boolean admit() {
         if (canceled || admitted) {
+            System.out.println("Cannot admit Ticket #" + id  + (canceled ? " because it is canceled." : "because it is already admitted."));
             return false;
         }
 
