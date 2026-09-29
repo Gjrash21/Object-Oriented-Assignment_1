@@ -23,7 +23,11 @@ public class Main{
 
         ticket5.admit();
 
+        System.out.println("\n");
+
         manager.printAllTickets();
+
+        System.out.println("\n");
 
         manager.printTicketsForEvent(event1);
 
